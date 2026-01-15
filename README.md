@@ -28,7 +28,7 @@ Project-1/
 │       ├── utils.py 
 |       └── nodeinfor.py
 └── README.md               # Project documentation
-
+```
 ## Installation & Setup
 
 ### 1. Clone this project
@@ -36,22 +36,23 @@ Project-1/
 ```bash
 git clone [https://github.com/Nituv05/Project-1.git](https://github.com/Nituv05/Project-1.git)
 cd Project-1
-
+```
 ### 2. Install dependencies
 ``` bash
 pip install -r finalize/requirements.txt
-
+```
 ### 3. Data Setup 
 The map data file for Hanoi (`hanoi_drive.graphml`) is approximately **160MB**, so it is **not included** in this GitHub repository. You must generate it locally before running the app.
-
+```
 The application is configured to automatically download the data if it is missing.
 
 1.  Ensure you have an internet connection.
 2.  Run the app (see step 4). The first launch will take **3-5 minutes** to download and process the map data from OpenStreetMap.
 3.  Once finished, the data will be saved in `finalize/data/` for faster future loading.
-
+```
 ### 4. Run the Application
 Run the following command in your terminal:
 
 ```bash
 streamlit run finalize/app.py
+```
