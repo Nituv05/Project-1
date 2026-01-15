@@ -1,11 +1,11 @@
-# Hanoi Routing App 🗺️
+# Hanoi Routing App 
 
 A pathfinding application for Hanoi, Vietnam, built with Python (Streamlit) and real-world OpenStreetMap data.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 
-## 🚀 Features
+## Features
 
 * **Optimal Routing:** Implements **Dijkstra's Algorithm** to find the shortest path between any two locations in Hanoi.
 * **Real-world Data:** Uses `OSMnx` to fetch actual road networks, including street types and speed limits.
@@ -13,7 +13,7 @@ A pathfinding application for Hanoi, Vietnam, built with Python (Streamlit) and 
 * **Detailed Analytics:** Provides path distance (km), number of nodes, and street names.
 * **Performance Comparison:** Compares custom Dijkstra implementation against NetworkX's built-in algorithm.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Project-1/
