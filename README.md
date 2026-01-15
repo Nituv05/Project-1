@@ -25,6 +25,6 @@ Project-1/
 │       ├── algorithms.py   # Dijkstra algorithm implementation
 │       ├── map_loader.py   # Data loading and processing
 │       ├── config.py       # Configuration settings
-│       └── ...
-├── .gitignore              # Git ignore rules (excludes large data files)
+│       ├── utils.py 
+|       └── nodeinfor.py
 └── README.md               # Project documentation
